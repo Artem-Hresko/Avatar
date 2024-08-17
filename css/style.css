@@ -1,0 +1,30 @@
+:root {
+  --text-color: #fff;
+  --button-color: #26c6ea;
+  --title-color: #0a3853;
+  --name-color: #000;
+
+  --font-family: "Inter", sans-serif;
+  --second-family: "HeadlandOne", sans-serif;
+  --third-family: "Hammersmith One", sans-serif;
+}
+
+.container {
+  width: 1440px;
+}
+
+.head-position {
+  display: flex;
+  align-items: center;
+  background-image: url(../images/backgroundlogo.png);
+  height: 150px;
+  justify-content: center;
+}
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 38px;
+}
+.navigation-list-item {
+  color: var(--text-color);
+}
