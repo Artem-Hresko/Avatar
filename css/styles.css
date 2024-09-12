@@ -10,14 +10,32 @@
   --third-family: "Hammersmith One", sans-serif;
 }
 
-.container {
-  width: 1440px;
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-style: 20px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+h1,
+h2,
+h3,
+h4,
+p,
+pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
   list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.container {
+  width: 1440px;
 }
 
 /* HEADER */
@@ -32,6 +50,7 @@ ul {
   background-size: cover;
   height: 150px;
   justify-content: center;
+  opacity: 0.7;
 }
 .navigation-list {
   display: flex;
@@ -63,18 +82,21 @@ ul {
 /* JOIN CLAN */
 .join-clan {
   background-image: url(../images/join-clan-background.png);
+  background-repeat: no-repeat;
   height: 740px;
 }
 .join-list {
   display: flex;
   flex-direction: column;
-  row-gap: 40px;
-  padding-top: 180px;
+  padding-top: 178px;
+  margin-left: 204px;
 }
 .join-list-item {
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc((100% - 2 * 40px) / 3);
+  color: var(--text-color);
+  font-family: var(--font-family);
 }
 .join-clan-button {
   width: 260px;
@@ -83,6 +105,9 @@ ul {
   text-align: center;
   color: var(--button-color);
   background-color: var(--backround-button);
+}
+.filter-list {
+  justify-content: end;
 }
 
 .join-list-image {
@@ -95,4 +120,39 @@ ul {
 }
 .nav-menu-item {
   color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.switcher {
+  background-image: url(../images/switcher.png);
+  height: 20px;
+  width: 36px;
+}
+
+.arrow {
+  background-image: url(../images/arrow.png);
+  width: 152px;
+  height: 40px;
+}
+.rectangle {
+  background-image: url(../images/Rectangle\ 8.png);
+  height: 120px;
+  background-repeat: no-repeat;
+}
+.trailer {
+  background-image: url(../images/trailer-section-background.png);
+  height: 741px;
+  background-repeat: no-repeat;
+}
+.trailer-button {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: var(--button-color);
+  background-color: var(--backround-button);
+  border-radius: 80px 0px 80px 0px;
+  justify-content: center;
+  width: 260px;
+  height: 80px;
 }
