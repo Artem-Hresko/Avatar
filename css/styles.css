@@ -143,6 +143,8 @@ ol {
   background-image: url(../images/trailer-section-background.png);
   height: 741px;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
 .trailer-button {
   font-family: var(--second-family);
@@ -152,7 +154,12 @@ ol {
   color: var(--button-color);
   background-color: var(--backround-button);
   border-radius: 80px 0px 80px 0px;
-  justify-content: center;
   width: 260px;
   height: 80px;
+}
+
+.quote-section {
+  display: flex;
+
+  justify-content: center;
 }
