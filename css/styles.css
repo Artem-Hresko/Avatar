@@ -41,6 +41,10 @@ ol {
 /* HEADER */
 .header {
   border-bottom: 4px solid #fff;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
 }
 
 .head-position {
@@ -84,6 +88,10 @@ ol {
   background-image: url(../images/join-clan-background.png);
   background-repeat: no-repeat;
   height: 740px;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
 }
 .join-list {
   display: flex;
@@ -145,6 +153,10 @@ ol {
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
 }
 .trailer-button {
   font-family: var(--second-family);
@@ -159,7 +171,19 @@ ol {
 }
 
 .quote-section {
-  display: flex;
-
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+.navi {
+  background-image: url(../images/navi-background.png);
+  height: 704px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+.navi-title {
+  text-align: center;
 }
