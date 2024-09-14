@@ -116,9 +116,12 @@ ol {
 .filter-list {
   margin-left: 598px;
   margin-top: 296px;
+
 }
 .filter-item {
   padding-top: 27px;
+
+
 }
 
 .nav-menu {
@@ -257,4 +260,11 @@ footer {
   color: var(--text-color);
  
  
+}
+.text-icons {
+  display: flex;
+}
+.text-box {
+  margin-left: 204px;
+  margin-top: 180px;
 }
