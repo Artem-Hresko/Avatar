@@ -115,7 +115,8 @@ ol {
   background-color: var(--backround-button);
 }
 .filter-list {
-  justify-content: end;
+  margin-left: 598px;
+  margin-top: 296px;
 }
 
 .join-list-image {
@@ -186,4 +187,11 @@ ol {
 }
 .navi-title {
   text-align: center;
+}
+.text-icons {
+  display: flex;
+}
+.text-box {
+  margin-left: 204px;
+  margin-top: 180px;
 }
