@@ -81,7 +81,7 @@ ol {
   text-align: center;
   color: var(--button-color);
   background-color: var(--backround-button);
-  border-radius: 80px 0px 80px 0px;
+  border-radius: 35px 0px;
   width: 141px;
   height: 41px;
   margin-right: 49px;
@@ -248,18 +248,12 @@ footer {
   padding-bottom: 25px;
 }
 
-
-.email-list {
-
+.logo-footer {
+  padding-top: 42px;
+  margin-left: 204px;
+  border-right: 2px solid var(--text-color) solid;
 }
-.email-list-item {
-  display: flex;
-  width: 665px;
-  height: 24px;
-  justify-content: space-between;
 
-  color: var(--text-color);
-}
 .text-icons {
   display: flex;
 }
@@ -278,23 +272,43 @@ footer {
   width: 320px;
   height: 240px;
   flex-basis: calc((100% - 2 * 36px) / 3);
-  
 }
 
 .navi-list-image1-4 {
-background-image: url(../images/box1-4.png);
-width: 152px;
- height: 40px;
+  background-image: url(../images/box1-4.png);
+  width: 152px;
+  height: 40px;
 }
 
 .navi-list-image2-5 {
   background-image: url(../images/box2-5.png);
- width: 152px;
- height: 40px;
-
+  width: 152px;
+  height: 40px;
 }
 .navi-list-image3-6 {
   background-image: url(../images/box3-6.png);
   width: 152px;
- height: 40px;
+  height: 40px;
+}
+
+.copyright-text {
+  color: var(--text-color);
+}
+
+.email-list {
+  margin: 0;
+  padding: 0;
+  margin-top: 45px;
+}
+
+.footer-position {
+  display: flex;
+}
+
+.email-list-item {
+  display: flex;
+  width: 665px;
+  height: 24px;
+  justify-content: space-between;
+  color: var(--text-color);
 }
