@@ -44,6 +44,8 @@ ol {
 
 /* HEADER */
 .header {
+  display: flex;
+  align-items: center;
   border-bottom: 4px solid #fff;
   margin-left: auto;
   margin-right: auto;
@@ -51,11 +53,14 @@ ol {
   background-image: url(../images/background-header-gradient.png),
     url(../images/backgroundlogo.png);
   background-size: cover;
+  column-gap: 49px;
+  padding-right: 48px;
 }
 
 .head-position {
   display: flex;
   align-items: center;
+  margin-right: 0px;
 
   height: 150px;
   justify-content: center;
@@ -121,6 +126,7 @@ ol {
   color: var(--button-color);
   background-color: var(--backround-button);
   margin-top: 52px;
+  font-size: 24px;
 }
 
 .filter-item {
@@ -171,7 +177,7 @@ ol {
 .trailer-button {
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   color: var(--button-color);
   background-color: var(--backround-button);
@@ -208,8 +214,6 @@ ol {
 .text-icons {
   display: flex;
 }
-
-
 
 .quote-title {
   width: 1002px;
