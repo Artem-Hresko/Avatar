@@ -122,8 +122,7 @@ ol {
   background-color: var(--backround-button);
   margin-top: 52px;
 }
-.filter-list {
-}
+
 .filter-item {
   padding-top: 27px;
 }
@@ -210,8 +209,7 @@ ol {
   display: flex;
 }
 
-.text-box {
-}
+
 
 .quote-title {
   width: 1002px;
