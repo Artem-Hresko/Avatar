@@ -6,7 +6,7 @@
   --backround-button: #0b0e66;
 
   --font-family: "Inter", sans-serif;
-  --second-family: "HeadlandOne", sans-serif;
+  --second-family: "Headland One", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
 }
 
@@ -247,17 +247,11 @@ footer {
     url(../images/footer-background.png);
   background-position: center;
   background-repeat: no-repeat;
-  height: 223px;
   margin-left: auto;
   margin-right: auto;
   max-width: 1440px;
   padding-top: 35px;
   padding-bottom: 25px;
-}
-
-.logo-footer {
-
-
 }
 
 .text-icons {
@@ -308,25 +302,45 @@ footer {
 
 .copyright-text {
   color: var(--text-color);
+  margin-left: 485px;
 }
 
 .email-list {
   margin: 0;
   padding: 0;
   margin-top: 45px;
+  margin-left: 70px;
 }
 
-.footer-position {
+.footer-logo {
   display: flex;
-  
+  align-items: center;
 }
 
 .email-list-item {
   display: flex;
-  width: 665px;
-  height: 24px;
   justify-content: space-between;
   color: var(--text-color);
+  background-repeat: no-repeat;   
+}
+
+.email-list-item:last-child {
+  background-image: url(../images/line2.png);
+  background-position: 203px;
+  width: 689px;
+  margin-right: 20px;
+}
+
+.email-list-item:first-child {
+  background-image: url(../images/line1.png);
+  background-position: 130px;
+  width: 665px;
+   margin-right: 20px;
+}
+
+.email-list-text {
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .navi-list-text {
@@ -344,6 +358,18 @@ footer {
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;
-
   color: #000;
+}
+
+.logo-link {
+  display: contents;
+}
+
+.logo-link::after {
+  content: "";
+  display: block;
+  height: 153px;
+  width: 1px;
+  background-color: var(--text-color);
+  margin-left: 80px;
 }
