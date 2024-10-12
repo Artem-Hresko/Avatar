@@ -385,3 +385,27 @@ footer {
   background-color: var(--text-color);
   margin-left: 80px;
 }
+
+.instagram-icon {
+  fill: white;
+}
+
+.instagram-icon:hover {
+  fill: orangered;
+}
+
+.twitter-icon {
+  fill: white;
+}
+
+.twitter-icon:hover {
+  fill: lightseagreen;
+}
+
+.youtube-icon {
+  fill: white;
+}
+
+.youtube-icon:hover {
+  fill: red;
+}
